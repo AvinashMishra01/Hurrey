@@ -1,0 +1,22 @@
+<div class="background">
+  <!-- <button (click)="back()" id="back-btn"> Back</button> -->
+  <img src="assets/backBtn.jpg" class="backBtn"  id="back-btn" (click)="back()">
+  <div class="user_name">
+    <div class="slide-in-right">
+      <div class="avatar_sec">
+        <div class="avatar avt_txt">
+          <img class="avt_img" id="avatar_img1" [src]="url" />
+          <p style="color: white">{{ name }}</p>
+        </div>
+
+        <button class="btn_txt" (click)="nextHandler('/index4/join')">
+          Join Room
+        </button>
+        <button class="btn_txt" (click)="nextHandler('/index4/create')">
+          Create Room
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>

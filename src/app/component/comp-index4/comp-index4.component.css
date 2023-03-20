@@ -1,0 +1,94 @@
+@import url("../comp-index3/comp-index3.component.css");
+/* input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        display: none;
+
+      }
+
+
+
+
+      input[type=number] {
+        background: rgba(217,217,217,.2);
+        height: 45px;
+        width: 300px;
+        padding-left: 10px;
+        border-radius: 10px;
+        background: linear-gradient(#141923,#141923) padding-box,linear-gradient(to right,#7b72cc,#dc0078,#3871d6) border-box;
+        border: 2px solid transparent;
+        font-size: 20px;
+        color: #fff;
+
+      }
+
+       input[type=number]::placeholder {
+        color: #fff
+      }
+
+      input[type=number]:focus {
+        outline: none;
+      } */
+
+h1 {
+  justify-content: center;
+  text-align: center;
+}
+.btn_text.create {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 156px;
+  margin-top: 1.5rem;
+}
+
+.share_sec {
+  background: rgba(217, 217, 217, 0.2);
+  width: 300px;
+  border-radius: 10px;
+  background: linear-gradient(#141923, #141923) padding-box,
+    linear-gradient(to right, #7b72cc, #dc0078, #3871d6) border-box;
+  border: 2px solid transparent;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.text_white.random {
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 10px;
+}
+.text_white.icon {
+  /* background-image: url('../../../assets/share.png') no-repeat left; */
+  background-image: url("../../../assets/share.png") no-repeat left;
+  padding-left: 25px;
+  background-size: 20px;
+}
+
+.share_img {
+  position: absolute;
+  background: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 0;
+  border: none;
+  display: inline;
+  align-items: flex-end;
+  right: 10px;
+}
+
+/* Side animation right */
+/* .slide-in-right{animation:slide-in-right .5s cubic-bezier(.25,.46,.45,.94) both}
+@keyframes slide-in-right{0%{transform:translateX(1000px);opacity:0}100%{transform:translateX(0);opacity:1}} */
+
+/* side animation left */
+/* .slide-in-left{animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both}
+@keyframes slide-in-left{0%{transform:translateX(-1000px);opacity:0}100%{transform:translateX(0);opacity:1}} */
+.video {
+  width: 150px;
+  height: 240px;
+}

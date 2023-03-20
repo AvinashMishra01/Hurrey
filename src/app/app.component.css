@@ -1,0 +1,6 @@
+@import url('../app/a_main_screen/main-scr/main-scr.component.css');
+.backBTM{
+  position: absolute;
+  margin-top: -84vh;
+  margin-right: 102vh;
+}

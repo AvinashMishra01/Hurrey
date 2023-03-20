@@ -1,0 +1,58 @@
+
+
+<div class="background">
+
+<!-- <button (click)="back()" id="back-btn"> Back</button> -->
+<img src="assets/backBtn.jpg" class="backBtn"  id="back-btn" (click)="back()">
+  <div class="slide-in-bottom">
+    <div class="avatar_sec">
+      <div class="avtar_head">
+        <h1 style="color: white">Hello {{ name }} !</h1>
+        <label>Choose your avatar</label>
+      </div>
+      <div class="avatar">
+        <img
+          class="avt_img"
+          id="avatar_img1"
+          src="../../../assets/avt1.png"
+          (click)="check(avt1.id)"
+          #avt1
+        />
+        <img
+          class="avt_img"
+          id="avatar_img2"
+          src="../../../assets/avt2.png"
+          (click)="check(avt2.id)"
+          #avt2
+        />
+        <img
+          class="avt_img"
+          id="avatar_img3"
+          src="../../../assets/avt3.png"
+          (click)="check(avt3.id)"
+          #avt3
+        />
+        <img
+          class="avt_img"
+          id="avatar_img4"
+          src="../../../assets/avt4.png"
+          (click)="check(avt4.id)"
+          #avt4
+        />
+        <img
+          class="avt_img"
+          id="avatar_img5"
+          src="../../../assets/avt5.png"
+          (click)="check(avt5.id)"
+          #avt5
+        />
+      </div>
+      <button *ngIf="nextBtn == false" (click)="nextHandler('/index3')">
+        Next
+      </button>
+      <button *ngIf="nextBtn == true" disabled>Next</button>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

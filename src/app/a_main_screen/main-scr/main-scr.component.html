@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <div class="background">
+
+  <ng-container  *ngIf="start==true">
+    <div class="slide-in-elliptic-top-fwd">
+
+      <div class="start_hurray">
+           <img class="hurry_img" src="../../../assets/hurrey.svg" />
+
+      </div>
+
+    </div>
+
+  </ng-container>
+  <!-- <ng-template  class="slide-out-fwd-center" #elseTemplate>
+    <div class="slide-out-fwd-center" >
+
+     <div class="start_hurray"> -->
+           <!-- <img class="hurry_img" src="../../../assets/hurrey.svg" /> -->
+      <!-- </div> -->
+    <!-- </div> -->
+  <!-- </ng-template> -->
+<!-- </div> -->
+
+      <ng-container class="contenet_center" *ngIf="start==false" >
+
+        <app-comp-index1></app-comp-index1>
+
+      </ng-container>
+
+
+
+
+
+</div>
+</body>
+</html>
+<!-- <router-outlet></router-outlet> -->

@@ -1,0 +1,14 @@
+@import url('../../a_main_screen/main-scr/main-scr.component.css');
+@import url('../comp-index2/comp-index2.component.css');
+.avatar.avt_txt{
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+}
+.btn_txt{
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+  padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    width: 300px;
+}
